@@ -7,21 +7,28 @@ const Navbar = () => {
     <div className="fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20">
       <div className="flex flex-row gap-3 items-center">
         <div className="relative">
-          {/* <Image
-            src="/horseLogo.jpg"
+          <Image
+            src="/mylogo.png"
             alt="logo"
-            width={40}
-            height={40}
+            width={50}
+            height={50}
             className="w-full h-full object-contain rounded-full"
-          /> */}
+          />
         </div>
-        <h1 className="text-white text-[25px] font-semibold">
-          Webchain{" "}
+        <a href="/" className="text-white text-[0px] font-semibold">
+  Nneji{" "}
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+    {" "}
+    OJ{" "}
+  </span>
+</a>
+         <h1 className="text-white text-[40px] font-semibold">
+          Nneji{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
             {" "}
-            Dev{" "}
+            OJ{" "}
           </span>
-        </h1>
+        </h1> 
       </div>
 
       <div className="flex flex-row gap-5 mb-2">
